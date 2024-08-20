@@ -1,0 +1,4 @@
+/vis/open OGL 800x600-0+0
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis
