@@ -1,0 +1,36 @@
+
+#detector geometry
+/xtal/setMaterial G4_Si
+/xtal/setAngle 0. -0.0015 0. rad
+/xtal/setSize 2.2 10.0 12. mm
+/xtal/setCylinder 2061.55 2000.0 497.99 mm
+/xtal/setPosition 0. 0. 0. m
+/xtal/setPhantom 0.3 0.3 0.3 m
+/xtal/setPhantomPos 0.5 0. 1.0 m
+/xtal/setBR 4000.0 0. 0. mm
+/xtal/setEC data/Si220pl
+/xtal/setDetector 38.0 38.0 0.64 mm
+/xtal/setDetectorPos1 0.01 0.5 1.0 m
+/xtal/setDetectorPos2 1.5 2.0 2.5 m
+
+#initialize run before stacking and primary generator actions
+/run/initialize
+
+#set gps properties
+/gps/ene/mono 200. MeV
+/gps/particle e-
+
+/gps/pos/type Beam
+/gps/pos/centre 0 0 -10.5 m
+/gps/pos/rot1 1 0 0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfx 1. mm
+/gps/pos/halfy 0. mm
+/gps/pos/sigma_x 0. mm
+/gps/pos/sigma_y 0. mm
+
+/gps/ang/type beam2d
+/gps/ang/rot1 1  0  0
+/gps/ang/rot2 0 -1  0
+/gps/ang/sigma_x 0.0 rad
+/gps/ang/sigma_y 0.0 rad

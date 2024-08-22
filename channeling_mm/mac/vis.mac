@@ -1,0 +1,28 @@
+
+## Visualisation
+/vis/open OGL 1000 1000 # opens a visualisation driver
+/vis/verbose errors
+/vis/drawVolume # adds detector geometry 
+/vis/viewer/flush # executing the visualisation
+
+/vis/geometry/set/visibility all 10
+
+# set camera parameters
+/vis/viewer/set/viewpointThetaPhi 5 60
+# /vis/viewer/set/viewpointVector -1 0 0
+/vis/viewer/set/lightsVector -1 0 0
+/vis/viewer/zoom 8
+/vis/viewer/panTo 0. 0.
+# Specify style (surface, wireframe, auxiliary edges,...)
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/lineSegmentsPerCircle 100
+# declaring data added to the visualisation 
+/vis/scene/add/trajectories 
+/vis/scene/add/hits 
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories smooth
+# To superimpose all of the events from a given run:
+/vis/scene/endOfEventAction accumulate
+
+/vis/viewer/update

@@ -1,0 +1,10 @@
+
+# Set some default verbose
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+
+#simulation set-up
+/control/execute parameters.mac
+
+/control/execute vis.mac

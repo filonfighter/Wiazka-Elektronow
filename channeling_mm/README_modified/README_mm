@@ -1,0 +1,216 @@
+================================================================================
+     Focusing of high-energy electron beam using crystal lenses in Geant4
+================================================================================
+Marta Monikowska, Warsaw University of Technology (Poland)
+marta.monikowska.stud@pw.edu.pl
+
+A program for focusing high-energy electron beam by using crystal lenses, was prepared in the Geant4 
+environment. It is based on an existing example called "channeling" provided by default with the Geant4 
+code. In order to obtain results from the profiled crystal, the simulation code was modified and 
+additional features were added. The macro file has been expanded so that more parameters can be 
+controlled and it is also possible to get visualization. The version of Geant4 on which the simulation 
+was prepared is geant4-v11.0.1.
+
+Added features are:
+- an ability to geometrically profile the exit of the bent crystal with a cylinder;
+- five more detectors behind the crystal which can detect angular distribution and positions, to be 
+able to check the trajectory of the beam more precisely;
+- water phantom which serves as a detector to check the energy deposition of the focused beam inside 
+a tissue-like material;
+- macro has been expanded to include more options for controlling the beam and the geometry of the 
+simulation.
+
+
+Description of new macro files
+------------------------------
+Four new macro files that control the modified simulation are called: 
+parameters.mac, run.mac, vis.mac, and init_vis.mac.
+
+The variable values that can be modified from the macro "parameters.mac" are as follows:
+• /xtal/setMaterial G4_Si - selects the material that the crystal is made from, in this case, silicon;
+• /xtal/setAngle 0. -0.0015 0. rad - changes the rotation of the crystal, so the incoming angle of the
+beam approaching the crystal, in this case, it is rotated by -0.0015 rad;
+• /xtal/setSize 2.2 10.0 12. mm - changes the size of the crystal rectangular solid in the x, y, and z
+directions. In this instance, 2.2 mm is the width, 10.0 mm is the height, and 12.0 mm is the
+length of the crystal;
+• /xtal/setCylinder 2061.55 2000.0 497.99 mm - switches the radius of the cylinder that cuts the
+exit of the crystal rectangular solid, and also changes the translation distances of the center
+of the cylinder with respect to the x and z axes. In this case, 2061.55 mm is the radius,
+2000.0 mm is the translation vector on the x-axis, and 497.99 mm is the translation vector
+on the z-axis;
+• /xtal/setPosition 0. 0. 0. m - the first parameter sets the position of the detectors on the x-axis,
+and the second parameter changes the position of the profiled crystal on the x-axis. So in
+such a case, all of the detectors and the crystal are situated in the 0.0 m position on the
+x-axis. The shift values for the detectors and the crystal refer to the center of these solids.
+• /xtal/setPhantom 0.3 0.3 0.3 m - sets the width, height, and length of the water phantom. In this
+instance, all of those values are equal to 0.3 m;
+• /xtal/setPhantomPos 0.5 0. 1.0 m - changes the position of the water phantom in all three direc-
+tions. In this case, it is moved to the side due to the value of 0.5 m on the x-axis, and it is
+placed at the distance of 0.85 m behind the crystal, due to the value of 1.0 m on the z-axis.
+Water phantom shift values refer to the center of the solid;
+• /xtal/setBR 4000.0 0. 0. mm - changes the bending radius of the crystal planes, in this situation,
+the value of the crystal bending radius is 4000.0 mm;
+• /xtal/setEC data/Si220pl - selects the (110) Si crystal plane of channeling;
+• /xtal/setDetector 38.0 38.0 0.64 mm - changes the width, height, and length of detectors. The
+detectors are made of vacuum as the rest of the world for the simulation;
+• /xtal/setDetectorPos1 0.01 0.5 1.0 m - switches the distance at which the detectors are placed
+behind the crystal, part one refers to the first three detectors;
+• /xtal/setDetectorPos2 1.5 2.0 2.5 m - changes the distance at which the detectors are placed
+behind the crystal, part two refers to the fourth, fifth, and sixth detector;
+• /gps/ene/mono 200. MeV - selects the energy of the particles;
+• /gps/particle e- - selects the type of the particles, in this case, it is an electron;
+• /gps/pos/type Beam - selects the type of the particle bunch;
+• /gps/pos/centre 0 0 -10.5 m - selects the starting point for the beam;
+• /gps/pos/rot1 1 0 0 and /gps/pos/rot2 0 1 0 - defines a rotation matrix for the source of the particles;
+• /gps/pos/halfx 1. mm - selects a half-width of the beam in the x-axis, in this case, the beam width
+is equal to 2 mm in the x-direction;
+• /gps/pos/halfy 0. mm - defines a half-width of the beam in y-axis;
+• /gps/pos/sigma_x 0. mm - changes the beam Gaussian distribution in x-axis;
+• /gps/pos/sigma_y 0. mm - changes the beam Gaussian distribution in y-axis;
+• /gps/ang/type beam2d - selects the type of angular beam distribution;
+• /gps/ang/rot1 1 0 0 and /gps/ang/rot2 0 -1 0 - defines an angular rotation matrix for the source
+of the particles;
+• /gps/ang/sigma_x 0.0 rad - changes the angular beam Gaussian distribution in x-axis;
+• /gps/ang/sigma_y 0.0 rad - changes the angular beam Gaussian distribution in y-axis.
+
+More possibilities for modifying the beam parameters can be found in the section on built-in
+commands in Geant4 available in the "Book For Application Developers" [24].
+
+The "run.mac" macro takes the simulation guidelines from the "parameters.mac" macro and runs
+the simulation for 1000 particles. As a result, it creates an ExExhCh.root file with the saved output.
+
+The macros "vis.mac" and "init_vis.mac" are necessary to invoke the visualization for the simu-
+lation. The "vis.mac" macro is a basic macro for creating visualization in Geant4. The "init_vis.mac"
+macro initializes the visualization and takes the setup for display from the "parameters.mac" file.
+
+It is also possible to run simulations for a larger number of events from visualization mode by
+executing the command "/control/execute run.mac", where the number of events will be specified. A
+disadvantage of performing simulations for a large number of particles from the visualization level is
+a significant increase in computational time.
+
+
+The output
+----------
+The output from the modified channeling example is the ExExhCh.root file with two TTrees
+(ROOT data structure). One of the TTrees is the ExExChTree. It consists of leaves that contain
+the following data:
+• angXin - particle horizontal angle at the crystal entry, the same as in the basic channeling example;
+• angYin - particle vertical angle at the crystal entry, the same as in the basic channeling example;
+• posXin - particle horizontal position at the crystal entry, as in the basic channeling example;
+• posYin - particle vertical position at the crystal entry, as in the basic channeling example;
+• angXout1st - particle horizontal angle at the crystal exit, in this case, at the distance 0.01 m behind
+the crystal;
+• angYout1st - particle vertical angle at the crystal exit, in this case, at the distance 0.01 m behind
+the crystal;
+• posXout1st - particle horizontal position at the crystal exit, in this case, at the distance 0.01 m
+behind the crystal;
+• posYout1st - particle vertical position at the crystal exit, in this case, at the distance 0.01 m behind
+the crystal;
+• angXout2nd - particle horizontal angle at the crystal exit, in this case, at the distance 0.5 m behind
+the crystal;
+• angYout2nd - particle vertical angle at the crystal exit, in this case, at the distance 0.5 m behind
+the crystal;
+• posXout2nd - particle horizontal position at the crystal exit, in this case, at the distance 0.5 m
+behind the crystal;
+• posYout2nd - particle vertical position at the crystal exit, in this case, at the distance 0.5 m behind
+the crystal;
+• angXout3rd - particle horizontal angle at the crystal exit, in this case, at the distance 1.0 m behind
+the crystal;
+• angYout3rd - particle vertical angle at the crystal exit, in this case, at the distance 1.0 m behind
+the crystal;
+• posXout3rd - particle horizontal position at the crystal exit, in this case, at the distance 1.0 m
+behind the crystal;
+• posYout3rd - particle vertical position at the crystal exit, in this case, at the distance 1.0 m behind
+the crystal;
+• angXout4th - particle horizontal angle at the crystal exit, in this case, at the distance 1.5 m behind
+the crystal;
+• angYout4th - particle vertical angle at the crystal exit, in this case, at the distance 1.5 m behind
+the crystal;
+• posXout4th - particle horizontal position at the crystal exit, in this case, at the distance 1.5 m
+behind the crystal;
+• posYout4th - particle vertical position at the crystal exit, in this case, at the distance 1.5 m behind 
+the crystal;
+• angXout5th - particle horizontal angle at the crystal exit, in this case, at the distance 2.0 m behind
+the crystal;
+• angYout5th - particle vertical angle at the crystal exit, in this case, at the distance 2.0 m behind
+the crystal;
+• posXout5th - particle horizontal position at the crystal exit, in this case, at the distance 2.0 m
+behind the crystal;
+• posYout5th - particle vertical position at the crystal exit, in this case, at the distance 2.0 m behind
+the crystal;
+• angXout6th - particle horizontal angle at the crystal exit, in this case, at the distance 2.5 m behind
+the crystal;
+• angYout6th - particle vertical angle at the crystal exit, in this case, at the distance 2.5 m behind
+the crystal;
+• posXout6th - particle horizontal position at the crystal exit, in this case, at the distance 2.5 m
+behind the crystal;
+• posYout6th - particle vertical position at the crystal exit, in this case, at the distance 2.5 m behind
+the crystal.
+
+The other one of the TTrees is the PhantomDeposition which consists of leaves:
+• Edep - energy deposition inside the water phantom;
+• posX - position of particles inside the water phantom in x-axes;
+• posY - position of particles inside the water phantom in x-axes;
+• posZ - position of particles inside the water phantom in x-axes.
+
+Due to the fact that the detectors and the water phantom, which also serves as a detector, can
+overlap, only one of these two recording options can be used during a single simulation.
+In order to be able to record trajectory data, the position of the detectors must be set to zero on
+the x-axis, and the position of the phantom must be moved to the side of the simulation setup, for
+example, 0.5 m on the x-axis. This is the layout that is proposed as default.
+To collect data from the water phantom, the phantom should be set to 0.0 m on the x-axis, and
+the detectors should be moved to the side of the simulation arrangement, for example, 0.5 m on the
+x-axis
+
+
+Profiling of the crystal exit
+-----------------------------
+Crystal profiling is performed through the process of cutting a part of the crystal body by a
+cylinder. The radius of the cylinder is related with the length of the crystal, as in Equation 2.11. Due
+to the chosen deflection angle of 1000 μrad, the difference between the two values is of the order
+of magnitude of 103. For this reason, the section of the cylinder cutting the exit from the crystal is
+almost a straight line. The important part of crystal profiling is the translation of the center of the
+cylinder in relation to the outlet of the crystal, a schematic of such a translation is shown in Figure
+3.6, where dx and dz are the shift values in the horizontal and longitudinal directions, respectively.
+
+An example of crystal exit profiling is visualized in Figures 3.7 and 3.8, where the profiled crys-
+tal is pink, non-profiled crystal is yellow, profiling cylinder is green, detectors are white, and water
+phantom is blue. Such a display is prepared only to visualize the solids that form the profiled crystal
+and how these solids overlap.
+When preparing a set of parameters to simulate a crystal, the yellow solid that represents the
+bent crystal without profiling is 1.5 times the length of the profiled crystal in the middle of its width. So
+in this example, the crystal has a bending radius equal to 4000 mm, which means that the crystal’s
+length is 4 mm (in the center of the profiled output), so the length of the yellow block is 12 mm. The
+value of the cylinder’s radius is 2061.55, and the shift of its center, relative to the crystal’s exit center, 
+is +2000.0 mm in the x-axis, and +497.99 mm in the z-axis. With a combination of such parameters,
+it is possible to obtain a simulation of the profiled crystal in Geant4. The result is presented in Figure
+3.9.
+
+In the case of a regular simulation, only the profiled crystal is visible, without the solids forming it,
+as shown in Figure 3.9. However, if one wants to visualize both solids forming the profiled crystal, as
+shown in Figures 3.7 and 3.8, then in the file src/DetectorConstruction.cc (A) it is needed to activate
+the lines of code related to:
+• creating G4LogicalVolume for the non-profiled crystal and cylinder, i.e. lines 213-218,
+• positioning these solids in the simulation space (G4PVPlacement), i.e. lines 284-298,
+• and giving them attributes for visualization (G4VisAttributes), i.e. lines 356-362.
+
+Attached Figures:
+- Figure 3.6: A scheme for determining the distance of translation of the cylinder with relation to the
+center of exit from the crystal, where R - the radius of the crystal, F - the focal length, 2r - the
+diameter of the cylinder, dx - the shift of the center of the cylinder in the x-plane, and dz - the shift of
+the center of the cylinder in the z-plane.
+- Figure 3.7: A visualization of the process of profiling the crystal exit, for the value of bending radius
+equal to 4000 mm, where the profiled crystal is pink, non-profiled crystal is yellow, profiling cylinder
+is green, detectors are white, and water phantom is blue.
+- Figure 3.8: A close-up of the process of profiling the crystal exit, for the value of bending radius
+equal to 4000 mm, where the profiled crystal is pink, the non-profiled crystal is yellow, and the
+profiling cylinder is green.
+- Figure 3.9: A visualization of the profiled crystal, for the value of bending radius equal to 4000 mm.
+
+
+
+
+
+
+
+
