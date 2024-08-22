@@ -16,10 +16,10 @@ void RunAction::BeginOfRunAction(const G4Run*) {
 }
 
 void RunAction::EndOfRunAction(const G4Run*) {
-    fOutputFile << "# Z (mm) \t Energy Deposition (MeV)" << std::endl;
+    fOutputFile << "# Z (mm) \t Energy Deposition (MeV/mm)" << std::endl;
     for (G4int i = 0; i < fNbins; ++i) {
         G4double z = fZmin + i * fZstep + 0.5 * fZstep; // Mid-point of the bin
-        fOutputFile << z / mm << "\t" << fEnergyDeposition[i] / MeV << "\n";
+        fOutputFile << z / mm << "\t" << fEnergyDeposition[i] / MeV / fZstep << "\n";
     }
     fOutputFile.close();
 }
