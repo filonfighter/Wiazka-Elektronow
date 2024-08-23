@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\EventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\PhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\SteppingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\EventAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\PhysicsList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\RunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\SteppingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1F83C56F-CBD6-39ED-B3CE-C73438733C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FFC44488-D3E6-3096-BD9C-2C3941AF24DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
