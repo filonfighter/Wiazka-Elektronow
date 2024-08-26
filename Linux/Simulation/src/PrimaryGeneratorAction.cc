@@ -7,7 +7,7 @@
 
 PrimaryGeneratorAction::PrimaryGeneratorAction() {
     G4int n_particle = 1;
-    fParticleGun = new G4ParticleGun(n_particle);
+    fParticleGun = new G4ParticleGgitun(n_particle);
 
     G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
     G4ParticleDefinition* electron = particleTable->FindParticle("e-");
