@@ -10,7 +10,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction() {
     fParticleGun = new G4ParticleGun(n_particle);
 
     G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition* proton = particleTable->FindParticle("e-");
+    G4ParticleDefinition* electron = particleTable->FindParticle("e-");
 
     fParticleGun->SetParticleDefinition(electron);
     fParticleGun->SetParticleEnergy(200*MeV);
