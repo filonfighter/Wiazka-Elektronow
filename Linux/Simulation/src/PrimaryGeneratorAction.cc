@@ -1,7 +1,7 @@
 #include "PrimaryGeneratorAction.hh"
 #include "G4ParticleGun.hh"
 #include "G4ParticleTable.hh"
-#include "G4Proton.hh"
+#include "G4Electron.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4RandomDirection.hh"
 
@@ -10,9 +10,9 @@ PrimaryGeneratorAction::PrimaryGeneratorAction() {
     fParticleGun = new G4ParticleGun(n_particle);
 
     G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition* proton = particleTable->FindParticle("proton");
+    G4ParticleDefinition* proton = particleTable->FindParticle("e-");
 
-    fParticleGun->SetParticleDefinition(proton);
+    fParticleGun->SetParticleDefinition(electron);
     fParticleGun->SetParticleEnergy(200*MeV);
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
     fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -0.15*m));
