@@ -4730,11 +4730,11 @@ CMakeFiles/BC2.dir/src/PrimaryGeneratorAction.cc.o: /Users/p1tr/Desktop/projekt-
   /usr/local/include/Geant4/G4Allocator.hh \
   /usr/local/include/Geant4/G4AllocatorPool.hh \
   /usr/local/include/Geant4/G4AutoLock.hh \
+  /usr/local/include/Geant4/G4Electron.hh \
   /usr/local/include/Geant4/G4EnvironmentUtils.hh \
   /usr/local/include/Geant4/G4Exception.hh \
   /usr/local/include/Geant4/G4ExceptionSeverity.hh \
   /usr/local/include/Geant4/G4GlobalConfig.hh \
-  /usr/local/include/Geant4/G4Ions.hh \
   /usr/local/include/Geant4/G4PDefManager.hh \
   /usr/local/include/Geant4/G4ParticleDefinition.hh \
   /usr/local/include/Geant4/G4ParticleDefinition.icc \
@@ -4745,7 +4745,6 @@ CMakeFiles/BC2.dir/src/PrimaryGeneratorAction.cc.o: /Users/p1tr/Desktop/projekt-
   /usr/local/include/Geant4/G4ParticleTableIterator.hh \
   /usr/local/include/Geant4/G4PrimaryParticle.hh \
   /usr/local/include/Geant4/G4PrimaryVertex.hh \
-  /usr/local/include/Geant4/G4Proton.hh \
   /usr/local/include/Geant4/G4RandomDirection.hh \
   /usr/local/include/Geant4/G4String.hh \
   /usr/local/include/Geant4/G4String.icc \

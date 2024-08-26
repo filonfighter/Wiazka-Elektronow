@@ -774,8 +774,7 @@ CMakeFiles/BC2.dir/src/PrimaryGeneratorAction.cc.o: \
   /usr/local/include/Geant4/G4ParticleTable.hh \
   /usr/local/include/Geant4/G4ParticleTableIterator.hh \
   /usr/local/include/Geant4/G4ParticleTable.icc \
-  /usr/local/include/Geant4/G4Proton.hh \
-  /usr/local/include/Geant4/G4Ions.hh \
+  /usr/local/include/Geant4/G4Electron.hh \
   /usr/local/include/Geant4/G4SystemOfUnits.hh \
   /usr/local/include/Geant4/G4RandomDirection.hh \
   /usr/local/include/Geant4/Randomize.hh \
