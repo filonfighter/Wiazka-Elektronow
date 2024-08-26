@@ -1,3 +1,0 @@
-/Users/p1tr/Desktop/projekt-almu/testowe/Wiazka-Elektronow-main2/Simulation/build/CMakeFiles/BC2.dir
-/Users/p1tr/Desktop/projekt-almu/testowe/Wiazka-Elektronow-main2/Simulation/build/CMakeFiles/edit_cache.dir
-/Users/p1tr/Desktop/projekt-almu/testowe/Wiazka-Elektronow-main2/Simulation/build/CMakeFiles/rebuild_cache.dir
