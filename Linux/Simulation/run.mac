@@ -3,10 +3,10 @@
 
 # Particle gun settings
 # Set the particle type to proton (this is already done in PrimaryGeneratorAction, but can be confirmed or overridden here)
-/gun/particle proton
+/gun/particle electron
 
 # Set the energy of the proton beam to 200 MeV (again, can override if needed)
-/gun/energy 200 MeV
+/gun/energy 20 MeV
 
 # Set the position of the particle gun (this should match the settings in your PrimaryGeneratorAction)
 /gun/position 0.0 0.0 -0.15 m
