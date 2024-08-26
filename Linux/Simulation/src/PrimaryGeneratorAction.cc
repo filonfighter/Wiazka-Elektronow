@@ -24,8 +24,10 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction() {
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
     // Rozrzut pozycji na płaszczyźnie wejściowej (zakładając, że fantom jest centrowany w (0,0,0))
-    G4double x0 = (G4UniformRand() - 0.5) * 0.1 * m; // np. rozrzut w zakresie ±5 cm
-    G4double y0 = (G4UniformRand() - 0.5) * 0.1 * m; // np. rozrzut w zakresie ±5 cm
+    // 0 - wiązka w postaci promienia; 0.5 - obszar wystrzału wielkości fantomu
+    gunPos = 0;
+    G4double x0 = (G4UniformRand() - 0.5) * gunPos * m; // np. rozrzut w zakresie ±5 cm
+    G4double y0 = (G4UniformRand() - 0.5) * gunPos * m; // np. rozrzut w zakresie ±5 cm
     G4double z0 = -0.15 * m; // Stała wartość z przed fantomem
 
     fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, z0));
