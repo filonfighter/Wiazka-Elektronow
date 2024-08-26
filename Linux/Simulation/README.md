@@ -1,11 +1,5 @@
 # Running code
 
-Create folder for building code:
-```bash
-mkdir build
-cd build
-```
-
 Compile code:
 ```bash
 cmake ..
@@ -15,8 +9,6 @@ Build code:
 ```bash
 make
 ```
-
-Move files run.mac, vis.mac and plot.py to build folder.
 
 Run code in Geant4 UI:
 ```bash
