@@ -1,0 +1,8 @@
+{
+    "particle": "particle name",
+    "energy": "n MeV",
+    "Zmin": "n*m",
+    "Zmax": "n*m",
+    "bins": "n",
+    "SetCutValue": "n*mm"
+}
