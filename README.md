@@ -51,15 +51,15 @@ w medycynie, szczególnie w leczeniu nowotworów położonych głęboko w ciele 
 
 Przeanalizowaliśmy układ o wymiarach 1x1x1 m, w którym umieszczono fantom wodny o wymiarach 0,5x0,5x0,5 m. W stronę tego fantomu skierowaliśmy emiter cząstek, generujący idealnie skolimowaną wiązkę cząstek (1). Następnie zmierzyliśmy ilość energii zdeponowanej przez cząstki (zarówno pierwotne, jak i wtórne) na różnych głębokościach fantomu, a wyniki przedstawiliśmy na wykresach.
 
-![Wizualizacja 1](.\img\obraz(1).png)
+![Wizualizacja 1](./img/Wizualizacja_1.png)
 
 W pierwszej fazie eksperymentu, w kierunku fantomu wystrzeliwane były protony. Wykres przedstawiający zależność depozycji energii od głębokości fantomu został zaprezentowany na wykresie powyżej (2) dla czterech różnych energii początkowych protonów.
 
-![Wykres 2](.\img\protons_compared.png)
+![Wykres 2](./img/wykres_protonow.png)
 
 W kolejnej fazie zasymulowaliśmy analogiczny scenariusz z wykorzystaniem wiązki elektronów (3).
 
-![Wykres 3](.\img\Porównanie.png)
+![Wykres 3](./img/wykres_elektronow.png)
 
 Ostatecznym celem projektu było zasymulowanie charakterystyk podobnych do krzywych Bragga, wykorzystując skupione wiązki elektronów.
 
@@ -67,7 +67,7 @@ Ostatecznym celem projektu było zasymulowanie charakterystyk podobnych do krzyw
 
 Nasze symulacje wykazały wyraźnie korzystne i powtarzalne kształty krzywych depozycji energii dla protonów, a także ich odpowiedniki w symulacjach z elektronami. W miarę postępu projektu stopniowo zwiększaliśmy realizm symulacji poprzez uwzględnienie różnych efektów, takich jak nieidealna kolimacja wiązki oraz obecność powietrza w układzie. Dodatkowo, wykorzystaliśmy wbudowane w Geant4 narzędzia wizualizacyjne do analizy przestrzennej depozycji energii w układzie. Wyniki potwierdziły istnienie wąskiego zakresu głębokości, w którym depozycja energii jest największa, co ma kluczowe znaczenie dla zastosowań medycznych.
 
-![Wizualizacja 2](.\img\obraz.png)
+![Wizualizacja 2](./img/Wizualizacja_2.png)
 
 (4) Zgodnie z literaturą, skupione wiązki elektronów powinny generować krzywe depozycji energii zbliżone do krzywych Bragga obserwowanych dla protonów. Jednakże w naszych symulacjach nie zaobserwowaliśmy takiego efektu, gdyż symulowane skupienie elektronów przyniosło wyniki zbliżone do tych uzyskanych bez skupienia. W celu poprawy wyników planujemy wdrożenie bardziej precyzyjnych i szczegółowych metod symulacyjnych.
 
