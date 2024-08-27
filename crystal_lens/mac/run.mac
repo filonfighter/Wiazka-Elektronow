@@ -1,6 +1,0 @@
-
-#simulation set-up
-/control/execute parameters.mac
-
-#beam on
-/run/beamOn 1000
