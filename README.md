@@ -23,7 +23,7 @@ w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele p
 - skrypty ```/plotters``` do tworzenia wykresów z otrzymanych przez nas danych
 - poster```/poster``` oraz inspiracje do niego
 
-## Jak korzystać z naszego kodu
+## Jak korzystac z naszego kodu
 
 Wymagania:
 - Zainstalowany Geant4 (Najlepiej zbudowany z kodu źródłowego) odsyłamy do [poradnika](https://youtu.be/w7k9PK1Ipv8?si=r0pcr2_cPobGcNrA)
