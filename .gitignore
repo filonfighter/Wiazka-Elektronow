@@ -1,5 +1,4 @@
 .DS_Store
 ./Linux/Simulation/.DS_Store
 braggs_curve.txt
-./Linux/Simulation/build/
-./Windows/Simulation/build/
+**/build/
