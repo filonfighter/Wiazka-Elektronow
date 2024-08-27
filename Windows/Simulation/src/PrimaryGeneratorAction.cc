@@ -27,15 +27,13 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction() {
 }
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
-    // Radius of the circular plane
-    G4double radius = 0.125 * m; // Adjust the radius as needed
+    // Length of the line
+    G4double lineLength = 0.25 * m; // Adjust the length as needed
 
-    // Randomly generate a position on the circular plane
-    G4double r = radius * std::sqrt(G4UniformRand());
-    G4double theta = 2 * M_PI * G4UniformRand();
-    G4double gunPosX = r * std::cos(theta);
-    G4double gunPosY = r * std::sin(theta);
-    G4double gunPosZ = -0.15 * m; // Starting position of the gun
+    // Randomly generate a position along the line
+    G4double gunPosX = (G4UniformRand() - 0.5) * lineLength;
+    G4double gunPosY = 0.0; // Fixed Y position
+    G4double gunPosZ = -0.15 * m; // Fixed Z position (starting position of the gun)
 
     // Target point 20 cm from the water phantom surface
     G4double targetX = 0.0;
