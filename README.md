@@ -3,7 +3,7 @@
 ## Spis treści:
 * [Abstrakt](#abstrakt)
 * [Co jest w repozytorium?](#co-jest-w-repozytorium)
-* [Jak korzystać z naszego kodu?](jak-korzystać-z-naszego-kodu)
+* [Jak korzystać z naszego kodu?](jak-korzystac-z-naszego-kodu)
 * [Treść postera](#treść-postera)
 
 ## Abstrakt
