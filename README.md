@@ -2,8 +2,8 @@
 
 ## Spis treści:
 * [Abstrakt](#abstrakt)
-* [Co jest w repozytorium](#co-jest-w-repozytorium?)
-* [Jak korzystać z naszego kodu?](jak-korzystać-z-naszego-kodu?)
+* [Co jest w repozytorium?](#co-jest-w-repozytorium)
+* [Jak korzystać z naszego kodu?](jak-korzystać-z-naszego-kodu)
 * [Treść postera](#treść-postera)
 
 ## Abstrakt
@@ -15,7 +15,7 @@ w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele p
 
 
 
-## Co jest w repozytorium?
+## Co jest w repozytorium
 
 - bibliografia ```/bibliography```, której używaliśmy w trakcie projektu
 - dane ```/data```, które udało nam się wygenerować dzięki symulacjom
@@ -23,7 +23,7 @@ w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele p
 - skrypty ```/plotters``` do tworzenia wykresów z otrzymanych przez nas danych
 - poster```/poster``` oraz inspiracje do niego
 
-## Jak korzystać z naszego kodu?
+## Jak korzystać z naszego kodu
 
 Wymagania:
 - Zainstalowany Geant4 (Najlepiej zbudowany z kodu źródłowego) odsyłamy do [poradnika](https://youtu.be/w7k9PK1Ipv8?si=r0pcr2_cPobGcNrA)
