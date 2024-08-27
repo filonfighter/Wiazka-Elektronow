@@ -6,7 +6,7 @@
 /gun/particle e-
 
 # Set the energy of the proton beam to 200 MeV (again, can override if needed)
-/gun/energy 100 MeV
+/gun/energy 50 MeV
 
 # Set the position of the particle gun (this should match the settings in your PrimaryGeneratorAction)
 /gun/position 0.0 0.0 -0.15 m
