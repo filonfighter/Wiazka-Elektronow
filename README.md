@@ -17,7 +17,6 @@ w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele p
 
 ## Co jest w repozytorium
 
-- bibliografia ```/bibliography```, której używaliśmy w trakcie projektu
 - dane ```/data```, które udało nam się wygenerować dzięki symulacjom
 - kod źródłowy symulacji dla Linuxa ```/Linux```i Windowsa ```/Windows```
 - skrypty ```/plotters``` do tworzenia wykresów z otrzymanych przez nas danych
