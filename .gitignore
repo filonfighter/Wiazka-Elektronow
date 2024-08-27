@@ -1,3 +1,6 @@
 .DS_Store
 ./Linux/Simulation/.DS_Store
 braggs_curve.txt
+**/build/
+.vscode/
+Wiazka-Elektronow.code-workspace.json
