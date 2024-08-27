@@ -3,7 +3,7 @@
 #include "G4SystemOfUnits.hh"
 #include <algorithm>
 
-RunAction::RunAction() : G4UserRunAction(), fZmin(0*m), fZmax(0.7*m), fNbins(1000) {
+RunAction::RunAction() : G4UserRunAction(), fZmin(0*m), fZmax(0.7*m), fNbins(300) {
     fZstep = (fZmax - fZmin) / fNbins;
     fEnergyDeposition.resize(fNbins, 0.0);
 }

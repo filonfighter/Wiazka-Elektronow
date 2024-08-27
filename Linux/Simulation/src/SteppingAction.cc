@@ -16,7 +16,7 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
     G4VPhysicalVolume* volume = preStepPoint->GetPhysicalVolume();
 
     // Ensure the energy deposition is only recorded within the water phantom
-    if (track->GetDefinition()->GetParticleName() == "proton" &&
+    if (track->GetDefinition()->GetParticleName() == "e-" &&
         volume->GetName() == "WaterPhantom") {
         
         G4double edep = step->GetTotalEnergyDeposit();

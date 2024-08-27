@@ -1,7 +1,7 @@
 #include "PrimaryGeneratorAction.hh"
 #include "G4ParticleGun.hh"
 #include "G4ParticleTable.hh"
-#include "G4Proton.hh"
+#include "G4Electron.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4RandomDirection.hh"
 
@@ -10,10 +10,10 @@ PrimaryGeneratorAction::PrimaryGeneratorAction() {
     fParticleGun = new G4ParticleGun(n_particle);
 
     G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition* proton = particleTable->FindParticle("proton");
+    G4ParticleDefinition* electron = particleTable->FindParticle("e-");
 
-    fParticleGun->SetParticleDefinition(proton);
-    fParticleGun->SetParticleEnergy(200*MeV);
+    fParticleGun->SetParticleDefinition(electron);
+    fParticleGun->SetParticleEnergy(100*MeV);
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
     fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -0.15*m));
 }
@@ -25,7 +25,7 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction() {
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
     // Rozrzut pozycji na płaszczyźnie wejściowej (zakładając, że fantom jest centrowany w (0,0,0))
     // 0 - wiązka w postaci promienia; 0.5 - obszar wystrzału wielkości fantomu
-    G4int gunPos = 0;
+    G4double gunPos = 0;
     G4double x0 = (G4UniformRand() - 0.5) * gunPos * m; // np. rozrzut w zakresie ±5 cm
     G4double y0 = (G4UniformRand() - 0.5) * gunPos * m; // np. rozrzut w zakresie ±5 cm
     G4double z0 = -0.15 * m; // Stała wartość z przed fantomem
@@ -44,4 +44,3 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
     
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
-

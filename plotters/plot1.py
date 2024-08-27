@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 fig, axs = plt.subplots(figsize=(12,4))
-df = pd.read_csv(r"C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\Release\braggs_curve.txt", sep='\t', header='infer')
+df = pd.read_csv(r"", sep='\t', header='infer') # Add the path to the file
 df.plot(kind='line', x=df.columns[0], y=df.columns[1],ax=axs)
 
 plt.show(block=True)
