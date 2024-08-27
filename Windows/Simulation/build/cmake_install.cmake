@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2
+# Install script for directory: C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,6 +47,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

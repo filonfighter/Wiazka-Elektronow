@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\6ac63f8aa06927e000401bc5c6b5d84f\generate.stamp.rule">
+    <CustomBuild Include="C:\Projekty (Edycja Laptop)\KodynaNagrody\Wiązka Elektronów\Wiazka-Elektronow\Windows\Simulation\build\CMakeFiles\3915f6494a0ff5786e876f0b87e87f8c\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{43C6A512-DBD3-3548-948E-6FA7725DE40A}</UniqueIdentifier>
+      <UniqueIdentifier>{F3BE051B-F173-3000-91F8-965850FF94BF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

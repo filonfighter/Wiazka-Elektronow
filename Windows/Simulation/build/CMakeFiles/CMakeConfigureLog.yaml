@@ -24,9 +24,9 @@ events:
       The output was:
       0
       Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-      Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:03.
+      Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:16.
       
-      Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+      Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
       PrepareForBuild:
         Tworzenie katalogu â€žDebug\\â€ť.
         Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Usuwanie pliku â€žDebug\\CompilerIdC.tlog\\unsuccessfulbuildâ€ť.
         Modyfikowanie â€žDebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstateâ€ť.
-      Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
+      Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
       
       Kompilacja powiodĹ‚a siÄ™.
           OstrzeĹĽenia: 0
           Liczba bĹ‚Ä™dĂłw: 0
       
-      Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.46
+      Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.45
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CompilerIdC/CompilerIdC.exe
+        C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-      Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:05.
+      Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:18.
       
-      Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+      Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
       PrepareForBuild:
         Tworzenie katalogu â€žDebug\\â€ť.
         Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Usuwanie pliku â€žDebug\\CompilerIdCXX.tlog\\unsuccessfulbuildâ€ť.
         Modyfikowanie â€žDebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstateâ€ť.
-      Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
+      Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
       
       Kompilacja powiodĹ‚a siÄ™.
           OstrzeĹĽenia: 0
           Liczba bĹ‚Ä™dĂłw: 0
       
-      Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.44
+      Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.45
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-5lfv3v"
-      binary: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-5lfv3v"
+      source: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-pqhme3"
+      binary: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-pqhme3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-5lfv3v'
+        Change Dir: 'C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-pqhme3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b744.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12a77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:07.
+        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:20.
         
-        Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5lfv3v\\cmTC_2b744.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+        Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pqhme3\\cmTC_12a77.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
         PrepareForBuild:
-          Tworzenie katalogu â€žcmTC_2b744.dir\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_12a77.dir\\Debug\\â€ť.
           Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5lfv3v\\Debug\\â€ť.
-          Tworzenie katalogu â€žcmTC_2b744.dir\\Debug\\cmTC_2b744.tlog\\â€ť.
+          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pqhme3\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_12a77.dir\\Debug\\cmTC_12a77.tlog\\â€ť.
         InitializeBuildStatus:
-          Trwa tworzenie â€žcmTC_2b744.dir\\Debug\\cmTC_2b744.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
-          Modyfikowanie â€žcmTC_2b744.dir\\Debug\\cmTC_2b744.tlog\\unsuccessfulbuildâ€ť.
+          Trwa tworzenie â€žcmTC_12a77.dir\\Debug\\cmTC_12a77.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
+          Modyfikowanie â€žcmTC_12a77.dir\\Debug\\cmTC_12a77.tlog\\unsuccessfulbuildâ€ť.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b744.dir\\Debug\\\\" /Fd"cmTC_2b744.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12a77.dir\\Debug\\\\" /Fd"cmTC_12a77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ wersja kompilatora optymalizujÄ…cego 19.41.34120 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeĹĽone.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b744.dir\\Debug\\\\" /Fd"cmTC_2b744.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12a77.dir\\Debug\\\\" /Fd"cmTC_12a77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5lfv3v\\Debug\\cmTC_2b744.exe" /INCREMENTAL /ILK:"cmTC_2b744.dir\\Debug\\cmTC_2b744.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-5lfv3v/Debug/cmTC_2b744.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-5lfv3v/Debug/cmTC_2b744.lib" /MACHINE:X64  /machine:x64 cmTC_2b744.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2b744.vcxproj -> C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5lfv3v\\Debug\\cmTC_2b744.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pqhme3\\Debug\\cmTC_12a77.exe" /INCREMENTAL /ILK:"cmTC_12a77.dir\\Debug\\cmTC_12a77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-pqhme3/Debug/cmTC_12a77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-pqhme3/Debug/cmTC_12a77.lib" /MACHINE:X64  /machine:x64 cmTC_12a77.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_12a77.vcxproj -> C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pqhme3\\Debug\\cmTC_12a77.exe
         FinalizeBuildStatus:
-          Usuwanie pliku â€žcmTC_2b744.dir\\Debug\\cmTC_2b744.tlog\\unsuccessfulbuildâ€ť.
-          Modyfikowanie â€žcmTC_2b744.dir\\Debug\\cmTC_2b744.tlog\\cmTC_2b744.lastbuildstateâ€ť.
-        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5lfv3v\\cmTC_2b744.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
+          Usuwanie pliku â€žcmTC_12a77.dir\\Debug\\cmTC_12a77.tlog\\unsuccessfulbuildâ€ť.
+          Modyfikowanie â€žcmTC_12a77.dir\\Debug\\cmTC_12a77.tlog\\cmTC_12a77.lastbuildstateâ€ť.
+        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pqhme3\\cmTC_12a77.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
         
         Kompilacja powiodĹ‚a siÄ™.
             OstrzeĹĽenia: 0
             Liczba bĹ‚Ä™dĂłw: 0
         
-        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.47
+        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.46
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-cugmb2"
-      binary: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-cugmb2"
+      source: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-x0is9s"
+      binary: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-x0is9s"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-cugmb2'
+        Change Dir: 'C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-x0is9s'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63461.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2612d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:09.
+        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:22.
         
-        Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cugmb2\\cmTC_63461.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+        Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0is9s\\cmTC_2612d.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
         PrepareForBuild:
-          Tworzenie katalogu â€žcmTC_63461.dir\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_2612d.dir\\Debug\\â€ť.
           Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cugmb2\\Debug\\â€ť.
-          Tworzenie katalogu â€žcmTC_63461.dir\\Debug\\cmTC_63461.tlog\\â€ť.
+          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0is9s\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_2612d.dir\\Debug\\cmTC_2612d.tlog\\â€ť.
         InitializeBuildStatus:
-          Trwa tworzenie â€žcmTC_63461.dir\\Debug\\cmTC_63461.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
-          Modyfikowanie â€žcmTC_63461.dir\\Debug\\cmTC_63461.tlog\\unsuccessfulbuildâ€ť.
+          Trwa tworzenie â€žcmTC_2612d.dir\\Debug\\cmTC_2612d.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
+          Modyfikowanie â€žcmTC_2612d.dir\\Debug\\cmTC_2612d.tlog\\unsuccessfulbuildâ€ť.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63461.dir\\Debug\\\\" /Fd"cmTC_63461.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2612d.dir\\Debug\\\\" /Fd"cmTC_2612d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ wersja kompilatora optymalizujÄ…cego 19.41.34120 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeĹĽone.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63461.dir\\Debug\\\\" /Fd"cmTC_63461.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2612d.dir\\Debug\\\\" /Fd"cmTC_2612d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cugmb2\\Debug\\cmTC_63461.exe" /INCREMENTAL /ILK:"cmTC_63461.dir\\Debug\\cmTC_63461.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-cugmb2/Debug/cmTC_63461.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-cugmb2/Debug/cmTC_63461.lib" /MACHINE:X64  /machine:x64 cmTC_63461.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_63461.vcxproj -> C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cugmb2\\Debug\\cmTC_63461.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0is9s\\Debug\\cmTC_2612d.exe" /INCREMENTAL /ILK:"cmTC_2612d.dir\\Debug\\cmTC_2612d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-x0is9s/Debug/cmTC_2612d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-x0is9s/Debug/cmTC_2612d.lib" /MACHINE:X64  /machine:x64 cmTC_2612d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2612d.vcxproj -> C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0is9s\\Debug\\cmTC_2612d.exe
         FinalizeBuildStatus:
-          Usuwanie pliku â€žcmTC_63461.dir\\Debug\\cmTC_63461.tlog\\unsuccessfulbuildâ€ť.
-          Modyfikowanie â€žcmTC_63461.dir\\Debug\\cmTC_63461.tlog\\cmTC_63461.lastbuildstateâ€ť.
-        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cugmb2\\cmTC_63461.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
+          Usuwanie pliku â€žcmTC_2612d.dir\\Debug\\cmTC_2612d.tlog\\unsuccessfulbuildâ€ť.
+          Modyfikowanie â€žcmTC_2612d.dir\\Debug\\cmTC_2612d.tlog\\cmTC_2612d.lastbuildstateâ€ť.
+        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0is9s\\cmTC_2612d.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe).
         
         Kompilacja powiodĹ‚a siÄ™.
             OstrzeĹĽenia: 0
             Liczba bĹ‚Ä™dĂłw: 0
         
-        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.52
+        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.51
         
       exitCode: 0
   -
@@ -300,8 +300,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-ecu6j1"
-      binary: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-ecu6j1"
+      source: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-y5qr73"
+      binary: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-y5qr73"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -311,40 +311,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-ecu6j1'
+        Change Dir: 'C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-y5qr73'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af1e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fb813.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:11.
+        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:24.
         
-        Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\cmTC_af1e6.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+        Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\cmTC_fb813.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
         PrepareForBuild:
-          Tworzenie katalogu â€žcmTC_af1e6.dir\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_fb813.dir\\Debug\\â€ť.
           Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\Debug\\â€ť.
-          Tworzenie katalogu â€žcmTC_af1e6.dir\\Debug\\cmTC_af1e6.tlog\\â€ť.
+          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_fb813.dir\\Debug\\cmTC_fb813.tlog\\â€ť.
         InitializeBuildStatus:
-          Trwa tworzenie â€žcmTC_af1e6.dir\\Debug\\cmTC_af1e6.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
-          Modyfikowanie â€žcmTC_af1e6.dir\\Debug\\cmTC_af1e6.tlog\\unsuccessfulbuildâ€ť.
+          Trwa tworzenie â€žcmTC_fb813.dir\\Debug\\cmTC_fb813.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
+          Modyfikowanie â€žcmTC_fb813.dir\\Debug\\cmTC_fb813.tlog\\unsuccessfulbuildâ€ť.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af1e6.dir\\Debug\\\\" /Fd"cmTC_af1e6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb813.dir\\Debug\\\\" /Fd"cmTC_fb813.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\src.c"
           Microsoft (R) C/C++ wersja kompilatora optymalizujÄ…cego 19.41.34120 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeĹĽone.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af1e6.dir\\Debug\\\\" /Fd"cmTC_af1e6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb813.dir\\Debug\\\\" /Fd"cmTC_fb813.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\src.c"
           src.c
-        C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\src.c(1,10): error C1083: Nie moĹĽna otworzyÄ‡ pliku doĹ‚Ä…cz: 'pthread.h': No such file or directory [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\cmTC_af1e6.vcxproj]
-        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\cmTC_af1e6.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
+        C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\src.c(1,10): error C1083: Nie moĹĽna otworzyÄ‡ pliku doĹ‚Ä…cz: 'pthread.h': No such file or directory [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\cmTC_fb813.vcxproj]
+        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\cmTC_fb813.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
         
         Kompilacja NIE POWIODĹ\xc2\x81A SIÄ\xc2\x98.
         
-        â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\cmTC_af1e6.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
+        â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\cmTC_fb813.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
         (element docelowy ClCompile) -> 
-          C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\src.c(1,10): error C1083: Nie moĹĽna otworzyÄ‡ pliku doĹ‚Ä…cz: 'pthread.h': No such file or directory [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ecu6j1\\cmTC_af1e6.vcxproj]
+          C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\src.c(1,10): error C1083: Nie moĹĽna otworzyÄ‡ pliku doĹ‚Ä…cz: 'pthread.h': No such file or directory [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5qr73\\cmTC_fb813.vcxproj]
         
             OstrzeĹĽenia: 0
             Liczba bĹ‚Ä™dĂłw: 1
         
-        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.40
+        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.39
         
       exitCode: 1
   -
@@ -361,8 +361,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-uqqf2v"
-      binary: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-uqqf2v"
+      source: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-162cqm"
+      binary: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-162cqm"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -372,42 +372,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-uqqf2v'
+        Change Dir: 'C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-162cqm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36dd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3cda1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:13.
+        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:26.
         
-        Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\cmTC_36dd8.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+        Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\cmTC_3cda1.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
         PrepareForBuild:
-          Tworzenie katalogu â€žcmTC_36dd8.dir\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_3cda1.dir\\Debug\\â€ť.
           Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\Debug\\â€ť.
-          Tworzenie katalogu â€žcmTC_36dd8.dir\\Debug\\cmTC_36dd8.tlog\\â€ť.
+          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_3cda1.dir\\Debug\\cmTC_3cda1.tlog\\â€ť.
         InitializeBuildStatus:
-          Trwa tworzenie â€žcmTC_36dd8.dir\\Debug\\cmTC_36dd8.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
-          Modyfikowanie â€žcmTC_36dd8.dir\\Debug\\cmTC_36dd8.tlog\\unsuccessfulbuildâ€ť.
+          Trwa tworzenie â€žcmTC_3cda1.dir\\Debug\\cmTC_3cda1.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
+          Modyfikowanie â€žcmTC_3cda1.dir\\Debug\\cmTC_3cda1.tlog\\unsuccessfulbuildâ€ť.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36dd8.dir\\Debug\\\\" /Fd"cmTC_36dd8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cda1.dir\\Debug\\\\" /Fd"cmTC_3cda1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\CheckFunctionExists.c"
           Microsoft (R) C/C++ wersja kompilatora optymalizujÄ…cego 19.41.34120 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeĹĽone.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36dd8.dir\\Debug\\\\" /Fd"cmTC_36dd8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cda1.dir\\Debug\\\\" /Fd"cmTC_3cda1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\Debug\\cmTC_36dd8.exe" /INCREMENTAL /ILK:"cmTC_36dd8.dir\\Debug\\cmTC_36dd8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-uqqf2v/Debug/cmTC_36dd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-uqqf2v/Debug/cmTC_36dd8.lib" /MACHINE:X64  /machine:x64 cmTC_36dd8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthreads.lib" [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\cmTC_36dd8.vcxproj]
-        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\cmTC_36dd8.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\Debug\\cmTC_3cda1.exe" /INCREMENTAL /ILK:"cmTC_3cda1.dir\\Debug\\cmTC_3cda1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-162cqm/Debug/cmTC_3cda1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-162cqm/Debug/cmTC_3cda1.lib" /MACHINE:X64  /machine:x64 cmTC_3cda1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthreads.lib" [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\cmTC_3cda1.vcxproj]
+        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\cmTC_3cda1.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
         
         Kompilacja NIE POWIODĹ\xc2\x81A SIÄ\xc2\x98.
         
-        â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\cmTC_36dd8.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
+        â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\cmTC_3cda1.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
         (element docelowy Link) -> 
-          LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthreads.lib" [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqqf2v\\cmTC_36dd8.vcxproj]
+          LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthreads.lib" [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-162cqm\\cmTC_3cda1.vcxproj]
         
             OstrzeĹĽenia: 0
             Liczba bĹ‚Ä™dĂłw: 1
         
-        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.44
+        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.38
         
       exitCode: 1
   -
@@ -424,8 +424,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-xqtsk5"
-      binary: "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-xqtsk5"
+      source: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-eokxvk"
+      binary: "C:/Projekty (Edycja Laptop)/KodynaNagrody/Wi\u0105zka Elektron\u00f3w/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-eokxvk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -435,42 +435,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-xqtsk5'
+        Change Dir: 'C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-eokxvk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a5a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97061.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.11.2+c078802d4 dla .NET Framework
-        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 22.08.2024 12:16:15.
+        Kompilacja rozpoczÄ™Ĺ‚a siÄ™ 26.08.2024 15:46:28.
         
-        Projekt â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\cmTC_6a5a0.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
+        Projekt â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\cmTC_97061.vcxprojâ€ť w wÄ™Ĺşle 1 (domyĹ›lne elementy docelowe).
         PrepareForBuild:
-          Tworzenie katalogu â€žcmTC_6a5a0.dir\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_97061.dir\\Debug\\â€ť.
           Dane wyjĹ›ciowe ze strukturÄ… sÄ… wĹ‚Ä…czone. Formatowanie diagnostyki kompilatora bÄ™dzie odzwierciedlaÄ‡ hierarchiÄ™ bĹ‚Ä™dĂłw. Aby uzyskaÄ‡ wiÄ™cej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\Debug\\â€ť.
-          Tworzenie katalogu â€žcmTC_6a5a0.dir\\Debug\\cmTC_6a5a0.tlog\\â€ť.
+          Tworzenie katalogu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\Debug\\â€ť.
+          Tworzenie katalogu â€žcmTC_97061.dir\\Debug\\cmTC_97061.tlog\\â€ť.
         InitializeBuildStatus:
-          Trwa tworzenie â€žcmTC_6a5a0.dir\\Debug\\cmTC_6a5a0.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
-          Modyfikowanie â€žcmTC_6a5a0.dir\\Debug\\cmTC_6a5a0.tlog\\unsuccessfulbuildâ€ť.
+          Trwa tworzenie â€žcmTC_97061.dir\\Debug\\cmTC_97061.tlog\\unsuccessfulbuildâ€ť, poniewaĹĽ okreĹ›lono "AlwaysCreate".
+          Modyfikowanie â€žcmTC_97061.dir\\Debug\\cmTC_97061.tlog\\unsuccessfulbuildâ€ť.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a5a0.dir\\Debug\\\\" /Fd"cmTC_6a5a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97061.dir\\Debug\\\\" /Fd"cmTC_97061.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\CheckFunctionExists.c"
           Microsoft (R) C/C++ wersja kompilatora optymalizujÄ…cego 19.41.34120 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeĹĽone.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a5a0.dir\\Debug\\\\" /Fd"cmTC_6a5a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97061.dir\\Debug\\\\" /Fd"cmTC_97061.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\Debug\\cmTC_6a5a0.exe" /INCREMENTAL /ILK:"cmTC_6a5a0.dir\\Debug\\cmTC_6a5a0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-xqtsk5/Debug/cmTC_6a5a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/CMakeScratch/TryCompile-xqtsk5/Debug/cmTC_6a5a0.lib" /MACHINE:X64  /machine:x64 cmTC_6a5a0.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthread.lib" [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\cmTC_6a5a0.vcxproj]
-        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\cmTC_6a5a0.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\Debug\\cmTC_97061.exe" /INCREMENTAL /ILK:"cmTC_97061.dir\\Debug\\cmTC_97061.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-eokxvk/Debug/cmTC_97061.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Projekty (Edycja Laptop)/KodynaNagrody/WiÄ…zka ElektronĂłw/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/CMakeScratch/TryCompile-eokxvk/Debug/cmTC_97061.lib" /MACHINE:X64  /machine:x64 cmTC_97061.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthread.lib" [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\cmTC_97061.vcxproj]
+        Kompilowanie projektu â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\cmTC_97061.vcxprojâ€ť wykonane (domyĹ›lne elementy docelowe) â€” NIEPOWODZENIE.
         
         Kompilacja NIE POWIODĹ\xc2\x81A SIÄ\xc2\x98.
         
-        â€žC:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\cmTC_6a5a0.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
+        â€žC:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\cmTC_97061.vcxprojâ€ť (domyĹ›lny element docelowy) (1)->
         (element docelowy Link) -> 
-          LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthread.lib" [C:\\Projekty (Edycja Laptop)\\Almukantarat\\Geant4\\program_files\\EnergyDepositionNew\\BC2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqtsk5\\cmTC_6a5a0.vcxproj]
+          LINK : fatal error LNK1104: nie moĹĽna otworzyÄ‡ pliku "pthread.lib" [C:\\Projekty (Edycja Laptop)\\KodynaNagrody\\WiÄ…zka ElektronĂłw\\Wiazka-Elektronow\\Windows\\Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eokxvk\\cmTC_97061.vcxproj]
         
             OstrzeĹĽenia: 0
             Liczba bĹ‚Ä™dĂłw: 1
         
-        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.40
+        Czas, ktĂłry upĹ‚ynÄ…Ĺ‚: 00:00:01.37
         
       exitCode: 1
 ...

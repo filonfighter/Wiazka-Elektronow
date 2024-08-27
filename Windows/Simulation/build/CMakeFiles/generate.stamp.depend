@@ -26,11 +26,6 @@ C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
-C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/CMakeLists.txt
-C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CMakeCCompiler.cmake
-C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CMakeCXXCompiler.cmake
-C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CMakeRCCompiler.cmake
-C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/3.30.2/CMakeSystem.cmake
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/Geant4Config.cmake
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/Geant4ConfigVersion.cmake
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/Geant4LibraryDepends-release.cmake
@@ -43,3 +38,8 @@ C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/P
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/PTL/PTLTargets-release.cmake
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/PTL/PTLTargets.cmake
 C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/lib/cmake/Geant4/UseGeant4.cmake
+C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/CMakeLists.txt
+C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CMakeCCompiler.cmake
+C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CMakeCXXCompiler.cmake
+C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CMakeRCCompiler.cmake
+C:/Projekty (Edycja Laptop)/KodynaNagrody/Wiązka Elektronów/Wiazka-Elektronow/Windows/Simulation/build/CMakeFiles/3.30.2/CMakeSystem.cmake
