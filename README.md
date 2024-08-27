@@ -1,22 +1,21 @@
 # Symulacje medyczne w programie Geant4
 
 ## Spis treści:
-
-- Abstrakt
-- Co jest w repozytorium
-- Jak korzystać z naszego kodu?
-- Treść postera
+* [Abstrakt](#abstrakt)
+* [Co jest w repozytorium?](#co-jest-w-repozytorium)
+* [Jak korzystać z naszego kodu?](#jak-korzystać-z-naszego-kodu)
+* [Treść postera](#treść-postera)
 
 ## Abstrakt
 
 Nasze badania koncentrują się na symulacji działania działka emitującego wysokoenergetyczne cząstki, które skierowane są na fantom wodny. Celem jest dokładne zbadanie, ile energii jest deponowanej przez te cząstki w wodzie na różnych głębokościach. Tego rodzaju badania mają istotne zastosowanie 
 w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele pacjenta. W ramach projektu analizowaliśmy potencjał zastosowania wiązek elektronów w tego typu terapiach.
 
-![Geant4 Logo](.\img\Geant4.png)
+![Geant4 Logo](./img/Geant4.png)
 
 
 
-## Co jest w repozytorium?
+## Co jest w repozytorium
 
 - bibliografia ```/bibliography```, której używaliśmy w trakcie projektu
 - dane ```/data```, które udało nam się wygenerować dzięki symulacjom
@@ -24,7 +23,7 @@ w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele p
 - skrypty ```/plotters``` do tworzenia wykresów z otrzymanych przez nas danych
 - poster```/poster``` oraz inspiracje do niego
 
-## Jak korzystać z naszego kodu?
+## Jak korzystać z naszego kodu
 
 Wymagania:
 - Zainstalowany Geant4 (Najlepiej zbudowany z kodu źródłowego) odsyłamy do [poradnika](https://youtu.be/w7k9PK1Ipv8?si=r0pcr2_cPobGcNrA)
@@ -55,11 +54,11 @@ Przeanalizowaliśmy układ o wymiarach 1x1x1 m, w którym umieszczono fantom wod
 
 W pierwszej fazie eksperymentu, w kierunku fantomu wystrzeliwane były protony. Wykres przedstawiający zależność depozycji energii od głębokości fantomu został zaprezentowany na wykresie powyżej (2) dla czterech różnych energii początkowych protonów.
 
-![Wykres 2](./img/wykres_protonow.png)
+![Wykres 2](./img/Wykres_protonow.png)
 
 W kolejnej fazie zasymulowaliśmy analogiczny scenariusz z wykorzystaniem wiązki elektronów (3).
 
-![Wykres 3](./img/wykres_elektronow.png)
+![Wykres 3](./img/Wykres_elektronow.png)
 
 Ostatecznym celem projektu było zasymulowanie charakterystyk podobnych do krzywych Bragga, wykorzystując skupione wiązki elektronów.
 

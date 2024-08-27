@@ -4,10 +4,12 @@
 /vis/viewer/set/lineSegmentsPerCircle 100
 /vis/scene/add/trajectories smooth
 /vis/scene/endOfEventAction accumulate
+/vis/filtering/trajectories/create/particleFilter
+/vis/filtering/trajectories/particleFilter-0/add gamma
+/vis/filtering/trajectories/particleFilter-0/invert true
+/vis/modeling/trajectories/create/drawByParticleID
 /vis/scene/add/axes 0.1  # Adjusted command
 /vis/scene/add/volume
 /vis/viewer/set/style wireframe
-/vis/scene/add/scaledField 1 m
 /vis/viewer/set/autoRefresh true
-/vis/viewer/set/background white
-
+/vis/viewer/set/background black
