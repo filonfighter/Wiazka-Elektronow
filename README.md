@@ -55,11 +55,11 @@ Przeanalizowaliśmy układ o wymiarach 1x1x1 m, w którym umieszczono fantom wod
 
 W pierwszej fazie eksperymentu, w kierunku fantomu wystrzeliwane były protony. Wykres przedstawiający zależność depozycji energii od głębokości fantomu został zaprezentowany na wykresie powyżej (2) dla czterech różnych energii początkowych protonów.
 
-![Wykres 2](./img/wykres_protonow.png)
+![Wykres 2](./img/Wykres_protonow.png)
 
 W kolejnej fazie zasymulowaliśmy analogiczny scenariusz z wykorzystaniem wiązki elektronów (3).
 
-![Wykres 3](./img/wykres_elektronow.png)
+![Wykres 3](./img/Wykres_elektronow.png)
 
 Ostatecznym celem projektu było zasymulowanie charakterystyk podobnych do krzywych Bragga, wykorzystując skupione wiązki elektronów.
 
