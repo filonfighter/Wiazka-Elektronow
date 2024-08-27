@@ -6,11 +6,11 @@ import numpy as np
 plt.rcParams['font.family'] = 'Times New Roman'
 
 # File paths for the Bragg's curves
-file_paths = [
-    r"C:\Projekty (Edycja Laptop)\KodynaNagrody\Wiązka Elektronów\Wiazka-Elektronow\data\proton-1\proton_118MeV.txt",
-    r"C:\Projekty (Edycja Laptop)\KodynaNagrody\Wiązka Elektronów\Wiazka-Elektronow\data\proton-2\proton_128MeV.txt",
-    r"C:\Projekty (Edycja Laptop)\KodynaNagrody\Wiązka Elektronów\Wiazka-Elektronow\data\proton-3\proton_138MeV.txt",
-    r"C:\Projekty (Edycja Laptop)\KodynaNagrody\Wiązka Elektronów\Wiazka-Elektronow\data\proton-4\proton_147MeV.txt"
+file_paths = [ # Add the paths to the files
+    r"",
+    r"",
+    r"",
+    r""
 ]
 
 # Colors for the different curves
