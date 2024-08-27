@@ -12,7 +12,7 @@
 Nasze badania koncentrują się na symulacji działania działka emitującego wysokoenergetyczne cząstki, które skierowane są na fantom wodny. Celem jest dokładne zbadanie, ile energii jest deponowanej przez te cząstki w wodzie na różnych głębokościach. Tego rodzaju badania mają istotne zastosowanie 
 w medycynie, szczególnie w terapii nowotworów położonych głęboko w ciele pacjenta. W ramach projektu analizowaliśmy potencjał zastosowania wiązek elektronów w tego typu terapiach.
 
-![Geant4 Logo](.\img\Geant4.png)
+![Geant4 Logo](./img/Geant4.png)
 
 
 
