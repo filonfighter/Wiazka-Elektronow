@@ -1,5 +1,11 @@
 # Running code
 
+Create build folder
+```bash
+mkdir build
+cd build
+```
+
 Compile code:
 ```bash
 cmake ..
