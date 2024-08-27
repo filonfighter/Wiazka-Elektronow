@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB0275D5-838B-324C-9DDD-5ECDF3E12B98}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BC2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BC2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BC2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4Tree.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4FR.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4GMocren.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4visHepRep.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4RayTracer.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4VRML.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4ToolsSG.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4vis_management.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4modeling.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4interfaces.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4mctruth.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4geomtext.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4error_propagation.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4readout.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4physicslists.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4run.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4event.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4tracking.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4parmodels.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4processes.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4digits_hits.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4track.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4particles.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4geometry.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4materials.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4graphics_reps.lib;COMCTL32.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4analysis.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4expat.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4zlib.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4intercoms.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4global.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4clhep.lib;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/Release/BC2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/Release/BC2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2" "-BC:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build" --check-stamp-file "C:/Projekty (Edycja Laptop)/Almukantarat/Geant4/program_files/EnergyDepositionNew/BC2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Geant4Config.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Geant4PackageCache.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\lib\cmake\Geant4\UseGeant4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\main.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\DetectorConstruction.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\EventAction.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\PhysicsList.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\PrimaryGeneratorAction.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\RunAction.cc" />
+    <ClCompile Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\src\SteppingAction.cc" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\DetectorConstruction.hh" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\EventAction.hh" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\PhysicsList.hh" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\PrimaryGeneratorAction.hh" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\RunAction.hh" />
+    <ClInclude Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\include\SteppingAction.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Projekty (Edycja Laptop)\Almukantarat\Geant4\program_files\EnergyDepositionNew\BC2\build\ZERO_CHECK.vcxproj">
+      <Project>{ADAEA3FC-E82C-358C-8E5A-ED8D032DED82}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

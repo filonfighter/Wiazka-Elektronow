@@ -1,0 +1,15 @@
+/vis/open TSG 600x600-0+0
+/vis/viewer/set/viewpointThetaPhi 90 180
+/vis/drawVolume
+/vis/viewer/set/lineSegmentsPerCircle 100
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/vis/filtering/trajectories/create/particleFilter
+/vis/filtering/trajectories/particleFilter-0/add gamma
+/vis/filtering/trajectories/particleFilter-0/add neutron
+/vis/filtering/trajectories/particleFilter-0/add neutrino
+/vis/filtering/trajectories/particleFilter-0/invert true
+/vis/scene/add/volume
+/vis/viewer/set/style wireframe
+/vis/viewer/set/autoRefresh true
+/vis/viewer/set/background black
