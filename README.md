@@ -1,11 +1,10 @@
 # Symulacje medyczne w programie Geant4
 
 ## Spis treści:
-
-- Abstrakt
-- Co jest w repozytorium
-- Jak korzystać z naszego kodu?
-- Treść postera
+* [Abstrakt](#abstrakt)
+* [Co jest w repozytorium](#co-jest-w-repozytorium?)
+* [Jak korzystać z naszego kodu?](jak-korzystać-z-naszego-kodu?)
+* [Treść postera](#treść-postera)
 
 ## Abstrakt
 
